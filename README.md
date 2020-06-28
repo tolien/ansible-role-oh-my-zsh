@@ -42,6 +42,9 @@ following tasks:
 | `omz_hist_stamps` | `mm/dd/yyyy` | See `templates/zshrc.zsh-template`. |
 | `omz_zsh_custom` | `$ZSH/custom` | See `templates/zshrc.zsh-template`. |
 | `omz_plugins` | `[]` | A list of Oh My Zsh plugins to enable. |
+| `omz_host_settings` | `[]` | Extra settings (as a list of strings) such as
+key bindings or aliases to add to the user's `.zshrc` file for all users on the
+host |
 
 ## Role task files
 

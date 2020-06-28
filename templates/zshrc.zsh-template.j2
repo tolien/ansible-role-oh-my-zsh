@@ -87,3 +87,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 {{ omz_user.settings }}
+{% for setting in omz_host_settings %}
+{{ setting }}
+{% endfor %}
